@@ -1,0 +1,54 @@
+#sprite {
+	@include hide;
+}
+
+.icon--wordpress,
+.icon--snapchat-ghost {
+	transform: scale(1) !important;
+}
+
+.icon--medium {
+	transform: scale(1.20) !important;
+}
+
+.icon--houzz {
+	transform: scale(1.28) !important;
+}
+
+.icon--docker-hub {
+	padding: 6px !important;
+	top: -1px !important;
+	transform: scale(1.8) !important;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.icon--chain {
+	transform: scale(1) !important;
+}
+
+.svg-fallback {
+	display: none;
+}
+
+.no-svg .svg-fallback {
+	display: inline-block;
+}
+
+/* Social Menu fallbacks */
+
+.no-svg .social-navigation a {
+	background: transparent;
+	height: auto;
+	width: auto;
+}
+
+/* Show screen reader text in some cases */
+.no-svg .social-navigation li a .screen-reader-text {
+	clip: auto;
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	position: relative;
+	width: auto;
+}
