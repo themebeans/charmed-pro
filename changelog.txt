@@ -1,0 +1,392 @@
+** Charmed Pro Changelog **
+
+05 April 2019, Version 2.4.6
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Tweak: Admin 1.6.1
+
+17 October 2018, Version 2.4.5
+	* New: Add support for PHP 7.2
+	* Tweak: Improve loading of lazy loaded portfolio posts when filtered
+
+06 September 2018, Version 2.4.4
+	* Tweak: Figcaptions now properly center images
+	* Tweak: Adjust default chain icon
+
+12 July 2018, Version 2.4.3
+	* New: Add new page.php for easier manipulation of the standard page template
+	* New: Add new single.php for easier manipulation of the singular portfolio post template
+	* New: Add new charmed_site_description() template tag to render the site description
+	* Tweak: Organize Contact and Site Map templates
+	* Fix: Portfolio Menu Widget display error
+	* Remove: Split singular.php file into page.php and single.php
+
+29 June 2018, Version 2.4.2
+	* Fix: External portfolio links now resolve properly
+	* Tweak: Improve LazyLoad rendering
+
+29 June 2018, Version 2.4.1
+	* Fix: Touch up sticky menu styling on mobile
+	* Tweak: Major PHPCS code clean-up
+	* Tweak: Replace the .png play icon with a new play icon from sprite.svg
+	* Tweak: Remove the sprite.png files as we're running 100% sprite now
+	* Tweak: Update Facebook social naviation icon
+	* Tweak: Allow portfolio taxonomy color to be set via the Customizer "Sub-Title" color option
+	* Tweak: Admin v1.4.3
+
+11 June 2018, Version 2.4.0
+	* New: Add conditional display logic for the logo width Customizer controls
+	* New: Add support for background image grid lazy-loading
+	* Tweak: Improve live previewing for the Customizer site logo uploader
+
+22 March 2018, Version 2.3.9
+	New:
+		* Add new JS rendered toggle and title controls
+
+	Fixes & Updates:
+		* Migrate old range Customizer controls to the new framework's range control
+		* Prep for an upcoming release with Merlin WP support
+		* Update /admin/ to v1.3.4-b
+
+
+21 February 2018, Version 2.3.8
+	Fixes & Updates:
+		* Resolves an issue where some servers were not able to properly validate licenses
+		* Updated /admin/ to v1.3.3
+
+
+19 February 2018, Version 2.3.7
+	Fixes & Updates:
+		* Fixed the "Hire Me" form to display better on shorter viewports height
+		* Tweaked Google font display
+		* Updated /admin/ to v1.3.2
+
+
+02 February 2018, Version 2.3.6
+	Fixes & Updates:
+		* Tweaked portfolio captions to allow links
+		* Tweaked the Dashboard Doc module for improved UI/X
+		* Tweaked the Dashboard Doc module to better support alternate WordPress admin color schemes
+		* Updated the Dashboard Doc module to enable you to search for queries in our Help Center 🎉
+		* Improved child theming with auto-load styles
+		* Updated the child theme with the removal of the included stylesheet enqueue functions. Once you update to 2.3.6, you may remove the charmed_child_scripts() function from your child theme
+		* Updated /admin/ to v1.3.1 with improved filtering, CMB2 updates, the new Dashboard Doc module and improved white-labeling options
+
+
+10 November 2017, Version 2.3.5
+	New
+		* Introduced a new license Customizer control for managing your theme license
+		* Removed the dashboard license widget
+
+
+17 October 2017 - Version 2.3.4
+	New:
+		* Resolved lightbox issues on mobile devices
+
+	Fixes & Updates:
+		* Updated /admin/ to v1.2.0
+		* Updated languages
+
+
+03 October 2017 - Version 2.3.3
+	New:
+		* Added support for core custom logo functionality
+		* Added a new Customizer range slider to set logo max widths, improving retina logo support
+		* Added Customizer name and description partials for easier live editing
+
+	Fixes & Updates:
+		* Updated /admin/ to v1.1.4
+		* Portfoli gallery images now display properly at calculated max-widths, instead of remaining full-width
+		* Migrated the site_logo Customizer option to the core WordPress custom_logo option
+		* Improved SVG rendering in Safari
+		* Updated languages
+
+
+27 September 2017 - Version 2.3.2
+	New:
+		* Added support for the upcoming Portfolio Professional WordPress plugin
+
+	Fixes & Updates:
+		* Updated /admin/ to v1.1.3
+		* Updated Medium social icon to reflect the updated branding
+		* Improved portfolio content excerpts
+		* Improved Beaver Builder single portfolio support
+		* Moved template specific functions into template-tags.php
+		* Fixed social icon display in FireFox
+
+
+24 August 2017 - Version 2.3.1
+	Fixes & Updates:
+		* Updated /admin/ to v1.1.2
+		* Added conditional checks for Envato Hosted accounts
+		* Updated file headers
+		* Updated languages
+
+
+17 August 2017 - Version 2.3.0
+	New:
+		* Added high-performant lazyloading with LazyLoad.js
+		* Added new browser-size specific img srcset support for retina images
+		* Added new SVG functionality for improved social SVGs
+		* Added functionality to customize sprite icons simply by including your own assets/images/sprite.svg file within your child theme
+		* Added support for adding social icons in a Custom Menu Widget — name your social menu "Social Menu" to use it
+		* Added support for Beaver Builder on single portfolio views
+		* Added support for the upcoming ThemeBeans Portfolio Pro plugin
+		* Added a social icon for Houzz
+
+	Fixes & Updates:
+		* Updated to add major performance improvements across the board
+		* Updated portfolio meta links to open up in new browsxer tabs
+		* Updated Isotope to v3.0.4
+		* Removed Unviel.js support
+		* Removed Picturefill.js support
+		* Updated file headers
+		* Updated languages
+
+
+17 July 2017 - Version 2.2.2
+	Fixes & Updates:
+		* Updated Admin Framework to v1.1.0
+		* Added a new inline dashboard help guide
+		* Fixed social menu Customizer edit shortcuts
+		* Fixed SSL issue on the validation script
+
+
+16 June 2017 - Version 2.2.1
+	Fixes & Updates:
+		* Resolved editor style notices
+
+
+15 June 2017 - Version 2.2.0
+	New:
+		* Added CSSComb support for more efficient stylesheets
+		* Added Gulp minification to all front-end stylesheets and scripts 🚀
+			- If you're using an older child theme, change "style-min.css" to "style.min.css"
+		* Added the theme version to the dashboard footer, next to the WordPress version — to help you stay up to date
+
+	Fixes & Updates:
+		* Improved script loading on the front-end
+		* Improved the on-boarding nature when Charmed Pro is first installed.
+			- There's no need to assign the portfolio template anymore, styles/templates are automatically created based on the front-page
+		* Laid the framework to add Huh inline documentation in a future update
+		* Organized css/image/js assets into the /assets/ folder
+		* Removed NProgress — the "loading" bar on the top of each oage — to greatly improve performance 🚀
+		* Updated languages
+
+
+20 May 2017 - Version 2.1.1
+	Fixes & Updates:
+		* Widget areas now display on proper pages.
+
+
+19 May 2017 - Version 2.1.0
+	New:
+		* Added the theme version to the dashboard footer, next to the WordPress version
+		* Incorporated the WordPress 4.7 get_theme_file_uri() function for enhanced child theming
+		* Incorporated the WordPress 4.7 get_parent_theme_file_path() function for enhanced child theming
+
+	Fixes & Updates:
+		* Charmed Pro now requires at least WordPress version 4.7
+		* Child theme fallback fix
+		* Updated get_parent_theme_path() to get_theme_file_path() for more efficient child theming
+		* Override any file, by including a file in the same directory location from within your child theme
+		* Customize sprite icons simply by including your own images/sprite.svg file within your child theme
+		* Improved performance by adding resource hints to browsers for pre-fetching, pre-rendering and pre-connecting for Google fonts
+
+
+18 May 2017, Version 2.0.3
+	Fixes & Updates:
+		* Added full PHP 7 Compatibility 🚀
+		* Improved webkit transitions and animations
+		* Updated the portfolio CTA email validation check
+		* Updated languages
+
+
+3 December 2016, Version 2.0.2
+	Fixes & Updates:
+		* Removed the archives template, as it's not necessary
+
+
+21 November 2016, Version 2.0.1
+	New:
+		* Added a Customizer option for enabling or disabling the single portfolio grid
+
+	Fixes & Updates:
+		* Sticky portfolio content responsive fix
+		* Updated charmed-pro-export.dat (for use with the Customizer Import/Export plugin)
+		* Updated languages
+
+
+1 November 2016, Version 2.0.0
+	New:
+		* Added brand new animation sequences
+		* Added new social sharing feature for singular portfolio posts
+		* Added support for a social navigation
+		* Added new "Sticky" option for the singular portfolio contentx
+		* Updated the 404 page view with a brand new look
+		* Added support for the Multiple Post Thumbnails plugin
+		* Added support for the Shortcodes Ultimate plugin
+		* Added support for Simple Custom Post Order
+		* Added improved support for Contact Form 7
+		* Added new filter hooks
+			- charmed_sort_header
+			- charmed_filter_header
+			- charmed_social_header
+			- charmed_mobile_menu_text
+		* Added TGMPA support, for improved onboarding
+			- Portfolio Post Type (or Bean Portfolio)
+			- Shortcodes Ultimate
+			- Multiple Post Thumbnails
+			- Contact Form 7
+			- Simple Custom Post Order
+
+	Fixes & Updates:
+		* Touched up "Hire Me" call to action/form styles
+		* Improved loading of inline Customizer CSS
+		* Moved body classes to charmed_body_classes(), for better extendability
+		* Updated metaboxes functionality
+		* Updated Customizer sanitization callbacks
+		* Updated languages
+
+
+20 October 2016, Version 1.5.1
+	New:
+		* Added a lightbox color scheme option (light or dark) to the Customizer
+
+	Fixes & Updates:
+		* Updated Customizer sanitization callbacks
+		* Updated languages
+
+
+29 September 2016, Version 1.5.0
+	Fixes & Updates:
+		* Updater class now requires admin permissions
+		* Child functionality update
+		* Updated pingback header
+		* Properly escaped translation strings
+		* Security audit and relevant optimizations
+		* Improved email sanitization callbacks
+		* Updated languages
+
+
+08 August 2016, Version 1.4.3
+	Fixes & Updates:
+		* Fixed non-JetPack retina logo
+		* Updated languages
+
+
+08 July 2016, Version 1.4.2
+	Fixes & Updates:
+		* Fixed portfolio template view
+
+
+07 July 2016, Version 1.4.1
+	Fixes & Updates:
+		* Added portfolio archive post type variable
+		* Updated languages
+
+
+29 June 2016, Version 1.4.0
+	New:
+		* Added new Customizer option to disable tag filtering
+		* Added new filters to the contact form template
+
+	Fixes & Updates:
+		* Updated feedback module
+		* Updated contact form to use is_email validation
+		* Updated Lity.js
+		* Updated languages
+
+
+26 April 2016, Version 1.3.3
+	Fixes & Updates:
+		* Photoswipe update
+		* Updated languages
+
+
+18 April 2016, Version 1.3.2
+	Fixes & Updates:
+		* Child functionality update
+
+
+15 April 2016, Version 1.3.1
+	Fixes & Updates:
+		* Backface visibity fix
+		* Updated languages
+
+
+11 April 2016, Version 1.3.0
+	New:
+		* Added site footer text Customizer option
+	Fixes & Updates:
+		* WordPress 4.5 updates
+		* General performance improvements
+		* Updated languages
+
+
+17 February 2016, Version 1.2.5
+	Fixes & Updates:
+		* Custom typography body text fix
+		* Updated Customizer sanitization functions
+		* Fixed bug when selecting -1 on portfolio post count
+		* Updated languages
+
+
+15 February 2016, Version 1.2.4
+	Fixes & Updates:
+		* Updated charmed_retina_logo template tag
+		* Improved retina logo support
+		* Improved retina Jetpack logo support
+		* Updated languages
+
+
+10 February 2016, Version 1.2.3
+	Fixes & Updates:
+		* Portoflio lazy loading fix
+
+
+02 February 2016, Version 1.2.2
+	Fixes & Updates:
+		* Fixed bug when there's video + images on a post
+		* Updated languages
+
+
+02 February 2016, Version 1.2.1
+	Fixes & Updates:
+		* Loading Animation update
+
+
+18 January 2016, Version 1.2.0
+	New:
+		* Added new retina logo Customizer option
+	Fixes & Updates:
+		* EDD_Theme_Updater Update
+		* Updated languages
+
+
+15 January 2015, Version 1.1.0
+	New:
+		* Added lity.js support for lightbox videos on post feeds
+	Fixes & Updates:
+		* Updated languages
+
+
+27 December 2015, Version 1.0.2
+	New:
+		* Moved source js files into js/src/ directory
+		* Added feedback class
+	Fixes & Updates:
+		* Updated child theme stylesheet enqueue
+		* Updated included child theme
+		* Updated portfolio meta style
+		* Updated documentation
+		* Updated languages
+
+
+17 November 2015, Version 1.0.1
+	Fixes & Updates:
+		* Customizer typo
+
+
+1 November 2015, Version 1.0.0
+	New:
+		* Initial release
