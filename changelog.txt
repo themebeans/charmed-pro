@@ -1,5 +1,8 @@
 ** Charmed Pro Changelog **
 
+11 April 2019, Version 2.4.7
+	* Fix: Allow links in Footer Text customizer control
+
 05 April 2019, Version 2.4.6
 	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
 	* Tweak: Admin 1.6.1

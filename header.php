@@ -122,7 +122,7 @@ if ( is_404() ) {
 
 			<?php if ( get_theme_mod( 'copyright_text_display' ) || is_customize_preview() ) : ?>
 				<span class="copyright <?php echo esc_attr( $visibility ); ?>">
-					<?php echo esc_html( get_theme_mod( 'copyright_text' ) ); ?>
+					<?php echo wp_kses_post( get_theme_mod( 'copyright_text' ) ); ?>
 				</span>
 			<?php endif; ?>
 
